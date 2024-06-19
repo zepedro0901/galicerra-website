@@ -1,0 +1,44 @@
+
+
+
+.cards-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:repeat(2, 50%);  
+  }
+
+@media (min-width: 876px ) {
+    .cards-container{
+    margin-top: 100px;    
+    display: grid;
+    grid-template-columns:repeat(4, 25%);  
+  }
+}
+
+
+
+.display-card{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    
+
+    width: 70%;
+    height: auto;
+
+    margin: 10px;
+ 
+  
+
+}
+.card-image{
+    border: solid black 2px;
+}
+.card-name{
+    margin-top: 10px;
+  align-self: center;
+  font-family: Inconsolata;
+  font-size: large;
+  font-weight: bold ;
+}

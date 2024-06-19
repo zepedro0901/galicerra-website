@@ -1,0 +1,39 @@
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #45789d;
+    color: #faf3ee;
+    font-family: Inconsolata;
+    border-radius: 20px;
+    font-size: small;
+
+    position: fixed;
+    width: 100%;
+    height: 30px;
+   
+}
+
+@media (min-width: 876px ) {
+    .header-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #45789d;
+        color: #faf3ee;
+        font-family: Inconsolata;
+        border-radius: 20px;
+        font-size: medium;
+    
+        position: fixed;
+        width: 100%;
+        height: 30px;
+       
+    }
+}
+
+
+.header-search-bar{
+    background-color: black;
+}
